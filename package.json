@@ -11,7 +11,7 @@
     "dev:tsc": "tsc --watch --preserveWatchOutput",
     "dev:node": "node --watch dist/index.js",
     "dev:esbuild": "pnpm run build --watch",
-    "dev": "run -p dev:*"
+    "dev": "run-p dev:*"
   },
   "keywords": [],
   "author": "",
